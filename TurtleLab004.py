@@ -98,7 +98,7 @@ def draw_sky(t, num_stars):
     """Draws a starry sky with the given number of stars."""
     for _ in range(num_stars):
         x = random.randint(-300, 300)
-        y = random.randint(0, 300)
+        y = random.randint(100, 300)
         size = random.randint(10, 30)
         draw_star(t, x, y, size)
 
@@ -130,7 +130,7 @@ t.clear()
 #draw_circle(t, 50)
 #draw_polygon(t, 6, 50)  # Hexagon
 x = -200
-y = -200
+y = -325
 r = 100
 draw_jackolantern(t,x,y,r)
 draw_jackolantern(t, x+300, y, r+4)
@@ -138,7 +138,7 @@ draw_jackolantern(t, x-300, y, r+2)
 
 #draw_star(t, -100, 150, 30)  # Star in the sky
 #draw_star(t, 100, 180, 20)
-draw_sky(t, 30)  # Draw 20 stars
+draw_sky(t, 50)  # Draw 20 stars
 
 # Close the turtle graphics window when clicked
 turtle.exitonclick()
