@@ -212,6 +212,9 @@ draw_sky(t, 30)
 
 ## Part 5: Reflection
 * In a new **README.md**, reflect on how encapsulation and generalization helped us break down the drawing process for this scene.
+ #By using encapsulation, we put specific tasks like drawing a pumpkin, drawing a star, or drawing an eye into their own functions. This kept the code organized and made it much easier to understand each part of the drwaing. 
+* #Generalizationm helped us make those functions more flexible. by giving functions parameters like x, y, radius, or size, we didn't need to rewrite code to draw multiple versions of the same shape. We could just change the arguments and reuse the function.
+* using encapsulation, and generalization allowed us to build a Halloween scene step by step, while keeping the code clean, reusuble, and adaptable.
 
 ## Part 6: Turn In!
 [Review video of this process](https://redwoods.us-west-2.instructuremedia.com/embed/72299bfd-8420-4ad0-8af5-18fb8e32e50a)
